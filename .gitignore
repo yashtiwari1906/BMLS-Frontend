@@ -1,0 +1,7 @@
+**.pyc
+*/migrations/*
+*/.DS_Store
+bmls/
+# */launch.json
+.env
+*/__pycache__/*
