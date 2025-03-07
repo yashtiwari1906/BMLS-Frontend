@@ -37,7 +37,7 @@ def downloadReport():
 
         elif response.status_code == 500:
             logging.info(f"some internal error occured for the hr_email: {hr_email}")
-            st.wrtite(f"Sorry for the incovenience but some error had occured we will shortly look into it if possible mail us at yashtiwari1906@gmail.com")
+            st.write(f"Sorry for the incovenience but some error had occured we will shortly look into it if possible mail us at yashtiwari1906@gmail.com")
 
         else:
             logging.info(f"response from the downloadReportFromBMLS API hit for the hr_email: {hr_email} was success")
